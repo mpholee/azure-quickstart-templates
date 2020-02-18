@@ -6,12 +6,12 @@
             "type": "string",
             "defaultValue": "simpleWinVS",
             "metadata": {
-                "description": "The name of you Virtual Machine."
+                "description": "WinServer19."
             }
         },
         "VmSize": {
             "type": "string",
-            "defaultValue": "Standard_D2_v2",
+            "defaultValue": "Standard_B2ms",
             "metadata": {
                 "description": "The size of the VM"
             }
@@ -19,20 +19,20 @@
         "adminUsername": {
             "type": "string",
             "metadata": {
-                "description": "Username for the Virtual Machine."
+                "description": "Skopo"
             }
         },
         "adminPassword": {
             "type": "secureString",
             "metadata": {
-                "description": "Password for the Virtual Machine. The password must be at least 12 characters long and have lower case, upper characters, digit and a special character (Regex match)"
+                "description": "KeKeey@191207 (Regex match)"
             }
         },
         "location": {
             "type": "string",
             "defaultValue": "[resourceGroup().location]",
             "metadata": {
-                    "description": "Location for all resources."
+                    "description": "East US"
             }
         },
         "dnsLabelPrefix": {
@@ -50,28 +50,28 @@
                 "existing"
             ],
             "metadata": {
-                "description": "Specify whether to create a new or existing NSG and vNet."
+                "description": "new"
             }
         },
         "virtualNetworkName": {
             "type": "string",
             "defaultValue": "vNet",
             "metadata": {
-                "description": "Name of the VNET"
+                "description": "Jomo"
             }
         },
         "subnetName": {
             "type": "string",
             "defaultValue": "Subnet",
             "metadata": {
-                "description": "Name of the subnet in the virtual network"
+                "description": "Boitu"
             }
         },
         "networkSecurityGroupName": {
             "type": "string",
             "defaultValue": "SecGroupNet",
             "metadata": {
-                "description": "Name of the Network Security Group"
+                "description": "Kgosi"
             }
 
         }
